@@ -5,3 +5,4 @@ cargo clean
 cd ..
 git config --global core.editor "hx"
 mklink /H "%AppData%/helix/config.toml" "config.toml"
+mklink /H "%AppData%/helix/languages.toml" "languages.toml"
