@@ -6,6 +6,6 @@
 
 ## Rust Analyzer
 
-For more detail: https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary
+For more detail: https://rust-analyzer.github.io/manual.html
 
 1. Run `install_rust_analyzer.bat`
