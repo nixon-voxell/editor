@@ -18,3 +18,14 @@ newline = "none"
 [editor.indent-guides]
 render = true
 character = "|"
+
+[keys.normal]
+"C-i" = "jump_forward"
+
+[keys.insert]
+"C-b" = "move_char_left"
+"C-f" = "move_char_right"
+"A-b" = "move_prev_word_end"
+"A-f" = "move_next_word_start"
+"C-p" = "move_line_up"
+"C-n" = "move_line_down"
