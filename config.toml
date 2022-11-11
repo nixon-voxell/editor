@@ -9,6 +9,7 @@ true-color = true
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
+select = "underline"
 
 [editor.whitespace.render]
 space = "all"
@@ -29,3 +30,5 @@ character = "|"
 "A-f" = "move_next_word_start"
 "C-p" = "move_line_up"
 "C-n" = "move_line_down"
+"C-a" = "insert_at_line_start"
+"C-e" = "insert_at_line_end"
