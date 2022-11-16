@@ -22,7 +22,6 @@ character = "|"
 
 [keys.normal]
 "C-i" = "jump_forward"
-";" = "repeat_last_motion"
 
 [keys.insert]
 "C-b" = "move_char_left"
