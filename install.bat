@@ -1,7 +1,6 @@
 cd helix
 cargo install --path helix-term
 mklink /J "%AppData%/helix/runtime" "runtime"
-cargo clean
 cd ..
 git config --global core.editor "hx"
 xcopy "config.toml" "%AppData%/helix/config.toml"
