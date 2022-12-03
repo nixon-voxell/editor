@@ -32,3 +32,6 @@ character = "|"
 "C-n" = "move_line_down"
 "C-a" = "insert_at_line_start"
 "C-e" = "insert_at_line_end"
+
+[editor.search]
+smart-case = false
