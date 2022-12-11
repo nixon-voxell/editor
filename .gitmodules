@@ -4,3 +4,6 @@
 [submodule "language_servers/rust-analyzer"]
 	path = language_servers/rust-analyzer
 	url = https://github.com/rust-lang/rust-analyzer.git
+[submodule "language_servers/marksman"]
+	path = language_servers/marksman
+	url = https://github.com/artempyanykh/marksman.git
