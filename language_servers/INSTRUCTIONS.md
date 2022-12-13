@@ -10,6 +10,11 @@ For more detail: https://rust-analyzer.github.io/manual.html
 
 1. Run `install_rust_analyzer.bat`
 
+## Marksman
+
+1. Run `install_marksman.bat`
+2. Add the output folder path to the "User Environment Variabls". (ending of the path should look like: ..\editor\language_servers\Marksman\bin\Release\net6.0\win-x64)
+
 ## Pylsp
 
 1. Run `install_pylsp.bat`
