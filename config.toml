@@ -30,8 +30,9 @@ character = "|"
 "A-f" = "move_next_word_start"
 "C-p" = "move_line_up"
 "C-n" = "move_line_down"
-"C-a" = "insert_at_line_start"
-"C-e" = "insert_at_line_end"
+"C-a" = "goto_line_start"
+"C-s" = "goto_first_nonwhitespace"
+"C-e" = "goto_line_end_newline"
 
 [editor.search]
 smart-case = false
