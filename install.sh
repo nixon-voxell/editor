@@ -2,7 +2,7 @@
 set -u
 
 cd helix
-cargo install --path helix-term
+cargo install --locked --path helix-term
 ln -s $PWD/runtime ~/.config/helix/runtime
 cargo clean
 cd ..

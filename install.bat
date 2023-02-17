@@ -1,5 +1,5 @@
 cd helix
-cargo install --path helix-term
+cargo install --locked --path helix-term
 mklink /J "%AppData%/helix/runtime" "runtime"
 cd ..
 git config --global core.editor "hx"
