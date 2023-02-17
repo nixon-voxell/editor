@@ -1,5 +1,5 @@
 cd helix
-// cargo install --locked --path helix-term
+cargo install --locked --path helix-term
 cargo clean
 mkdir "%AppData%/helix/runtime"
 mklink /J "%AppData%/helix/runtime/grammars" "./runtime/grammars"
