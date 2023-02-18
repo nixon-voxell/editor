@@ -46,14 +46,13 @@
           "NuGet.ProjectModel": "6.4.0-preview.1.53",
           "NuGet.Protocol": "6.4.0-preview.1.53",
           "NuGet.Versioning": "6.4.0-preview.1.53",
-          "OmniSharp.Stdio": "1.39.2",
+          "OmniSharp.Stdio": "1.39.4",
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Memory": "4.5.5",
-          "System.Reactive.Reference": "4.4.0.0",
           "Microsoft.CSharp.Reference": "6.0.0.0",
           "Microsoft.VisualBasic.Core": "11.0.0.0",
           "Microsoft.VisualBasic": "10.0.0.0",
-          "Microsoft.Win32.Primitives.Reference": "6.0.0.0",
+          "Microsoft.Win32.Primitives": "6.0.0.0",
           "Microsoft.Win32.Registry.Reference": "6.0.0.0",
           "mscorlib": "4.0.0.0",
           "netstandard": "2.1.0.0",
@@ -131,7 +130,7 @@
           "System.Net.WebHeaderCollection": "6.0.0.0",
           "System.Net.WebProxy": "6.0.0.0",
           "System.Net.WebSockets.Client": "6.0.0.0",
-          "System.Net.WebSockets.Reference": "6.0.0.0",
+          "System.Net.WebSockets": "6.0.0.0",
           "System.Numerics": "4.0.0.0",
           "System.Numerics.Vectors": "6.0.0.0",
           "System.ObjectModel": "6.0.0.0",
@@ -183,7 +182,7 @@
           "System.Text.Encodings.Web.Reference": "6.0.0.0",
           "System.Text.Json.Reference": "6.0.0.0",
           "System.Text.RegularExpressions": "6.0.0.0",
-          "System.Threading.Channels": "6.0.0.0",
+          "System.Threading.Channels.Reference": "6.0.0.0",
           "System.Threading.Reference": "6.0.0.0",
           "System.Threading.Overlapped": "6.0.0.0",
           "System.Threading.Tasks.Dataflow.Reference": "6.0.0.0",
@@ -229,7 +228,7 @@
           "Microsoft.VisualBasic.dll": {}
         }
       },
-      "Microsoft.Win32.Primitives.Reference/6.0.0.0": {
+      "Microsoft.Win32.Primitives/6.0.0.0": {
         "compile": {
           "Microsoft.Win32.Primitives.dll": {}
         }
@@ -619,7 +618,7 @@
           "System.Net.WebSockets.Client.dll": {}
         }
       },
-      "System.Net.WebSockets.Reference/6.0.0.0": {
+      "System.Net.WebSockets/6.0.0.0": {
         "compile": {
           "System.Net.WebSockets.dll": {}
         }
@@ -879,7 +878,7 @@
           "System.Text.RegularExpressions.dll": {}
         }
       },
-      "System.Threading.Channels/6.0.0.0": {
+      "System.Threading.Channels.Reference/6.0.0.0": {
         "compile": {
           "System.Threading.Channels.dll": {}
         }
@@ -1023,7 +1022,7 @@
           "lib/net6.0/Cake.Scripting.Transport.dll": {}
         }
       },
-      "Dotnet.Script.DependencyModel/1.3.1": {
+      "Dotnet.Script.DependencyModel/1.4.0": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
           "NuGet.ProjectModel": "6.4.0-preview.1.53"
@@ -1032,9 +1031,9 @@
           "lib/netstandard2.0/Dotnet.Script.DependencyModel.dll": {}
         }
       },
-      "Dotnet.Script.DependencyModel.NuGet/1.3.1": {
+      "Dotnet.Script.DependencyModel.NuGet/1.4.0": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netstandard2.0/Dotnet.Script.DependencyModel.NuGet.dll": {}
@@ -1081,7 +1080,7 @@
           "lib/netstandard2.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Common/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Common/4.5.0-2.22527.10": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.3",
           "System.Collections.Immutable": "6.0.0",
@@ -1095,44 +1094,44 @@
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Features/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp.Features/4.5.0-2.22527.10": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Features.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Scripting/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp.Scripting/4.5.0-2.22527.10": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Scripting.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Scripting.Common": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Scripting.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Workspaces/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp.Workspaces/4.5.0-2.22527.10": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {}
@@ -1147,36 +1146,36 @@
           "lib/netstandard2.0/Microsoft.CodeAnalysis.Elfie.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Features/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Features/4.5.0-2.22527.10": {
         "dependencies": {
           "Microsoft.CodeAnalysis.AnalyzerUtilities": "3.3.0",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.Elfie": "1.0.0",
-          "Microsoft.CodeAnalysis.Scripting.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Scripting.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10",
           "Microsoft.DiaSymReader": "1.4.0",
           "System.Text.Json": "6.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
@@ -1185,21 +1184,22 @@
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Features.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Scripting.Common/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Scripting.Common/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Scripting.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Workspaces.Common/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Workspaces.Common/4.5.0-2.22527.10": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "System.Composition": "6.0.0",
-          "System.IO.Pipelines": "6.0.3"
+          "System.IO.Pipelines": "6.0.3",
+          "System.Threading.Channels": "6.0.0"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll": {}
@@ -1467,27 +1467,22 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.Common.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Threading/16.7.56": {
+      "Microsoft.VisualStudio.Threading/17.4.27": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
-          "Microsoft.VisualStudio.Threading.Analyzers": "16.7.56",
-          "Microsoft.VisualStudio.Validation": "15.5.31",
+          "Microsoft.VisualStudio.Threading.Analyzers": "17.4.27",
+          "Microsoft.VisualStudio.Validation": "17.0.64",
           "Microsoft.Win32.Registry": "5.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
-        }
-      },
-      "Microsoft.VisualStudio.Threading.Analyzers/16.7.56": {},
-      "Microsoft.VisualStudio.Validation/15.5.31": {
+        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.VisualStudio.Validation.dll": {}
+          "lib/net6.0/Microsoft.VisualStudio.Threading.dll": {}
         }
       },
-      "Microsoft.Win32.Primitives/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0",
-          "runtime.win.Microsoft.Win32.Primitives": "4.3.0"
+      "Microsoft.VisualStudio.Threading.Analyzers/17.4.27": {},
+      "Microsoft.VisualStudio.Validation/17.0.64": {
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Validation.dll": {}
         }
       },
       "Microsoft.Win32.Registry/5.0.0": {
@@ -1496,13 +1491,12 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "Nerdbank.Streams/2.6.81": {
+      "Nerdbank.Streams/2.8.57": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
-          "Microsoft.VisualStudio.Threading": "16.7.56",
-          "Microsoft.VisualStudio.Validation": "15.5.31",
+          "Microsoft.VisualStudio.Threading": "17.4.27",
+          "Microsoft.VisualStudio.Validation": "17.0.64",
           "System.IO.Pipelines": "6.0.3",
-          "System.Net.WebSockets": "4.3.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
@@ -1569,52 +1563,52 @@
         }
       },
       "NuGet.Versioning/6.4.0-preview.1.53": {},
-      "OmniSharp.Extensions.JsonRpc/0.19.0": {
+      "OmniSharp.Extensions.JsonRpc/0.19.7": {
         "dependencies": {
           "MediatR": "8.1.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "Nerdbank.Streams": "2.6.81",
+          "Nerdbank.Streams": "2.8.57",
           "Newtonsoft.Json": "13.0.1",
-          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.0",
+          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.7",
           "System.Collections.Immutable": "6.0.0",
-          "System.IO.Pipelines": "6.0.3",
-          "System.Reactive": "4.4.1"
+          "System.Reactive": "5.0.0",
+          "System.Threading.Channels": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/OmniSharp.Extensions.JsonRpc.dll": {}
+          "lib/net6.0/OmniSharp.Extensions.JsonRpc.dll": {}
         }
       },
-      "OmniSharp.Extensions.JsonRpc.Generators/0.19.0": {},
-      "OmniSharp.Extensions.LanguageProtocol/0.19.0": {
+      "OmniSharp.Extensions.JsonRpc.Generators/0.19.7": {},
+      "OmniSharp.Extensions.LanguageProtocol/0.19.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
-          "OmniSharp.Extensions.JsonRpc": "0.19.0",
-          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.0"
+          "OmniSharp.Extensions.JsonRpc": "0.19.7",
+          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.7"
         },
         "compile": {
-          "lib/netstandard2.1/OmniSharp.Extensions.LanguageProtocol.dll": {}
+          "lib/net6.0/OmniSharp.Extensions.LanguageProtocol.dll": {}
         }
       },
-      "OmniSharp.Extensions.LanguageServer/0.19.0": {
+      "OmniSharp.Extensions.LanguageServer/0.19.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
-          "OmniSharp.Extensions.JsonRpc": "0.19.0",
-          "OmniSharp.Extensions.LanguageProtocol": "0.19.0",
-          "OmniSharp.Extensions.LanguageServer.Shared": "0.19.0"
+          "OmniSharp.Extensions.JsonRpc": "0.19.7",
+          "OmniSharp.Extensions.LanguageProtocol": "0.19.7",
+          "OmniSharp.Extensions.LanguageServer.Shared": "0.19.7"
         },
         "compile": {
-          "lib/netstandard2.1/OmniSharp.Extensions.LanguageServer.dll": {}
+          "lib/net6.0/OmniSharp.Extensions.LanguageServer.dll": {}
         }
       },
-      "OmniSharp.Extensions.LanguageServer.Shared/0.19.0": {
+      "OmniSharp.Extensions.LanguageServer.Shared/0.19.7": {
         "dependencies": {
-          "OmniSharp.Extensions.LanguageProtocol": "0.19.0"
+          "OmniSharp.Extensions.LanguageProtocol": "0.19.7"
         },
         "compile": {
-          "lib/netstandard2.1/OmniSharp.Extensions.LanguageServer.Shared.dll": {}
+          "lib/net6.0/OmniSharp.Extensions.LanguageServer.Shared.dll": {}
         }
       },
       "runtime.any.System.Globalization/4.3.0": {},
@@ -1636,12 +1630,6 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
           "Microsoft.NETCore.Targets": "1.1.0"
-        }
-      },
-      "runtime.win.Microsoft.Win32.Primitives/4.3.0": {
-        "dependencies": {
-          "System.Runtime": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0"
         }
       },
       "runtime.win7.System.Private.Uri/4.3.0": {},
@@ -1742,14 +1730,6 @@
         }
       },
       "System.Memory/4.5.5": {},
-      "System.Net.WebSockets/4.3.0": {
-        "dependencies": {
-          "Microsoft.Win32.Primitives": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading.Tasks": "4.3.0"
-        }
-      },
       "System.Private.Uri/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1757,7 +1737,11 @@
           "runtime.win7.System.Private.Uri": "4.3.0"
         }
       },
-      "System.Reactive/4.4.1": {},
+      "System.Reactive/5.0.0": {
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1899,6 +1883,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Threading.Channels/6.0.0": {},
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1910,7 +1895,7 @@
       "System.Threading.Tasks.Dataflow/6.0.0": {},
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "System.ValueTuple/4.5.0": {},
-      "OmniSharp.Abstractions/1.39.2": {
+      "OmniSharp.Abstractions/1.39.4": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -1923,34 +1908,34 @@
           "OmniSharp.Abstractions.dll": {}
         }
       },
-      "OmniSharp.Cake/1.39.2": {
+      "OmniSharp.Cake/1.39.4": {
         "dependencies": {
           "Cake.Scripting.Transport": "0.9.0",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.4.0-3.22429.3",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
-          "OmniSharp.Shared": "1.39.2"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.5.0-2.22527.10",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
+          "OmniSharp.Shared": "1.39.4"
         },
         "compile": {
           "OmniSharp.Cake.dll": {}
         }
       },
-      "OmniSharp.DotNetTest/1.39.2": {
+      "OmniSharp.DotNetTest/1.39.4": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
           "Microsoft.TestPlatform.ObjectModel": "17.3.0",
           "Microsoft.TestPlatform.TranslationLayer": "17.3.0",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
         },
         "compile": {
           "OmniSharp.DotNetTest.dll": {}
         }
       },
-      "OmniSharp.Host/1.39.2": {
+      "OmniSharp.Host/1.39.4": {
         "dependencies": {
           "McMaster.Extensions.CommandLineUtils": "3.1.0",
           "Microsoft.Build.Locator": "1.4.1",
@@ -1964,50 +1949,52 @@
           "Microsoft.Extensions.Logging.Console": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
-          "OmniSharp.Shared": "1.39.2"
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
+          "OmniSharp.Shared": "1.39.4"
         },
         "compile": {
           "OmniSharp.Host.dll": {}
         }
       },
-      "OmniSharp.LanguageServerProtocol/1.39.2": {
+      "OmniSharp.LanguageServerProtocol/1.39.4": {
         "dependencies": {
-          "OmniSharp.DotNetTest": "1.39.2",
-          "OmniSharp.Extensions.LanguageServer": "0.19.0",
-          "OmniSharp.Host": "1.39.2",
-          "OmniSharp.MSBuild": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
-          "OmniSharp.Script": "1.39.2"
+          "Microsoft.VisualStudio.Threading": "17.4.27",
+          "Microsoft.VisualStudio.Validation": "17.0.64",
+          "OmniSharp.DotNetTest": "1.39.4",
+          "OmniSharp.Extensions.LanguageServer": "0.19.7",
+          "OmniSharp.Host": "1.39.4",
+          "OmniSharp.MSBuild": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
+          "OmniSharp.Script": "1.39.4"
         },
         "compile": {
           "OmniSharp.LanguageServerProtocol.dll": {}
         }
       },
-      "OmniSharp.MSBuild/1.39.2": {
+      "OmniSharp.MSBuild/1.39.4": {
         "dependencies": {
           "Microsoft.Extensions.Options": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
           "NuGet.Packaging.Core": "6.4.0-preview.1.53",
           "NuGet.ProjectModel": "6.4.0-preview.1.53",
           "NuGet.Versioning": "6.4.0-preview.1.53",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
           "System.Threading.Tasks.Dataflow": "6.0.0"
         },
         "compile": {
           "OmniSharp.MSBuild.dll": {}
         }
       },
-      "OmniSharp.Roslyn/1.39.2": {
+      "OmniSharp.Roslyn/1.39.4": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10",
           "Microsoft.Extensions.Caching.Memory": "6.0.0",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Shared": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Shared": "1.39.4",
           "System.ComponentModel.Composition": "4.5.0",
           "System.Reflection.DispatchProxy": "4.5.1"
         },
@@ -2015,43 +2002,43 @@
           "OmniSharp.Roslyn.dll": {}
         }
       },
-      "OmniSharp.Roslyn.CSharp/1.39.2": {
+      "OmniSharp.Roslyn.CSharp/1.39.4": {
         "dependencies": {
           "ICSharpCode.Decompiler": "7.2.1.6856",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp": "4.4.0-3.22429.3",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
-          "OmniSharp.Shared": "1.39.2",
-          "System.Reactive": "4.4.1"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp": "4.5.0-2.22527.10",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
+          "OmniSharp.Shared": "1.39.4",
+          "System.Reactive": "5.0.0"
         },
         "compile": {
           "OmniSharp.Roslyn.CSharp.dll": {}
         }
       },
-      "OmniSharp.Script/1.39.2": {
+      "OmniSharp.Script/1.39.4": {
         "dependencies": {
-          "Dotnet.Script.DependencyModel": "1.3.1",
-          "Dotnet.Script.DependencyModel.NuGet": "1.3.1",
-          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.4.0-3.22429.3",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
+          "Dotnet.Script.DependencyModel": "1.4.0",
+          "Dotnet.Script.DependencyModel.NuGet": "1.4.0",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.5.0-2.22527.10",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
           "OmniSharp.Script.dll": {}
         }
       },
-      "OmniSharp.Shared/1.39.2": {
+      "OmniSharp.Shared/1.39.4": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
           "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "OmniSharp.Abstractions": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
           "System.Collections.Immutable": "6.0.0",
           "System.Composition": "6.0.0"
         },
@@ -2059,23 +2046,18 @@
           "OmniSharp.Shared.dll": {}
         }
       },
-      "OmniSharp.Stdio/1.39.2": {
+      "OmniSharp.Stdio/1.39.4": {
         "dependencies": {
-          "OmniSharp.Cake": "1.39.2",
-          "OmniSharp.DotNetTest": "1.39.2",
-          "OmniSharp.Host": "1.39.2",
-          "OmniSharp.LanguageServerProtocol": "1.39.2",
-          "OmniSharp.MSBuild": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
-          "OmniSharp.Script": "1.39.2"
+          "OmniSharp.Cake": "1.39.4",
+          "OmniSharp.DotNetTest": "1.39.4",
+          "OmniSharp.Host": "1.39.4",
+          "OmniSharp.LanguageServerProtocol": "1.39.4",
+          "OmniSharp.MSBuild": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
+          "OmniSharp.Script": "1.39.4"
         },
         "compile": {
           "OmniSharp.Stdio.dll": {}
-        }
-      },
-      "System.Reactive.Reference/4.4.0.0": {
-        "compile": {
-          "System.Reactive.dll": {}
         }
       }
     },
@@ -2094,14 +2076,13 @@
           "NuGet.ProjectModel": "6.4.0-preview.1.53",
           "NuGet.Protocol": "6.4.0-preview.1.53",
           "NuGet.Versioning": "6.4.0-preview.1.53",
-          "OmniSharp.Stdio": "1.39.2",
+          "OmniSharp.Stdio": "1.39.4",
           "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Memory": "4.5.5",
-          "System.Reactive.Reference": "4.4.0.0",
           "Microsoft.CSharp.Reference": "6.0.0.0",
           "Microsoft.VisualBasic.Core": "11.0.0.0",
           "Microsoft.VisualBasic": "10.0.0.0",
-          "Microsoft.Win32.Primitives.Reference": "6.0.0.0",
+          "Microsoft.Win32.Primitives": "6.0.0.0",
           "Microsoft.Win32.Registry.Reference": "6.0.0.0",
           "mscorlib": "4.0.0.0",
           "netstandard": "2.1.0.0",
@@ -2179,7 +2160,7 @@
           "System.Net.WebHeaderCollection": "6.0.0.0",
           "System.Net.WebProxy": "6.0.0.0",
           "System.Net.WebSockets.Client": "6.0.0.0",
-          "System.Net.WebSockets.Reference": "6.0.0.0",
+          "System.Net.WebSockets": "6.0.0.0",
           "System.Numerics": "4.0.0.0",
           "System.Numerics.Vectors": "6.0.0.0",
           "System.ObjectModel": "6.0.0.0",
@@ -2231,7 +2212,7 @@
           "System.Text.Encodings.Web.Reference": "6.0.0.0",
           "System.Text.Json.Reference": "6.0.0.0",
           "System.Text.RegularExpressions": "6.0.0.0",
-          "System.Threading.Channels": "6.0.0.0",
+          "System.Threading.Channels.Reference": "6.0.0.0",
           "System.Threading.Reference": "6.0.0.0",
           "System.Threading.Overlapped": "6.0.0.0",
           "System.Threading.Tasks.Dataflow.Reference": "6.0.0.0",
@@ -2282,26 +2263,26 @@
           }
         }
       },
-      "Dotnet.Script.DependencyModel/1.3.1": {
+      "Dotnet.Script.DependencyModel/1.4.0": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
           "NuGet.ProjectModel": "6.4.0-preview.1.53"
         },
         "runtime": {
           "lib/netstandard2.0/Dotnet.Script.DependencyModel.dll": {
-            "assemblyVersion": "1.3.1.0",
-            "fileVersion": "1.3.1.0"
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
           }
         }
       },
-      "Dotnet.Script.DependencyModel.NuGet/1.3.1": {
+      "Dotnet.Script.DependencyModel.NuGet/1.4.0": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netstandard2.0/Dotnet.Script.DependencyModel.NuGet.dll": {
-            "assemblyVersion": "1.3.1.0",
-            "fileVersion": "1.3.1.0"
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
           }
         }
       },
@@ -2371,7 +2352,7 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Common/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Common/4.5.0-2.22527.10": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.3",
           "System.Collections.Immutable": "6.0.0",
@@ -2383,8 +2364,8 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -2429,14 +2410,14 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -2481,19 +2462,19 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Features/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp.Features/4.5.0-2.22527.10": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Features.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -2538,17 +2519,17 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Scripting/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp.Scripting/4.5.0-2.22527.10": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Scripting.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Scripting.Common": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Scripting.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -2593,17 +2574,17 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp.Workspaces/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.CSharp.Workspaces/4.5.0-2.22527.10": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -2660,50 +2641,50 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         }
       },
-      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.CSharp.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         }
       },
-      "Microsoft.CodeAnalysis.Features/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Features/4.5.0-2.22527.10": {
         "dependencies": {
           "Microsoft.CodeAnalysis.AnalyzerUtilities": "3.3.0",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "Microsoft.CodeAnalysis.Elfie": "1.0.0",
-          "Microsoft.CodeAnalysis.Scripting.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Scripting.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10",
           "Microsoft.DiaSymReader": "1.4.0",
           "System.Text.Json": "6.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Features.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -2748,14 +2729,14 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Scripting.Common/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Scripting.Common/4.5.0-2.22527.10": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3"
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Scripting.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -2800,18 +2781,19 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Workspaces.Common/4.4.0-3.22429.3": {
+      "Microsoft.CodeAnalysis.Workspaces.Common/4.5.0-2.22527.10": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
           "System.Composition": "6.0.0",
-          "System.IO.Pipelines": "6.0.3"
+          "System.IO.Pipelines": "6.0.3",
+          "System.Threading.Channels": "6.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.400.22.42903"
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.500.22.52710"
           }
         },
         "resources": {
@@ -3405,118 +3387,110 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Threading/16.7.56": {
+      "Microsoft.VisualStudio.Threading/17.4.27": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
-          "Microsoft.VisualStudio.Threading.Analyzers": "16.7.56",
-          "Microsoft.VisualStudio.Validation": "15.5.31",
+          "Microsoft.VisualStudio.Threading.Analyzers": "17.4.27",
+          "Microsoft.VisualStudio.Validation": "17.0.64",
           "Microsoft.Win32.Registry": "5.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.VisualStudio.Threading.dll": {
-            "assemblyVersion": "16.7.0.0",
-            "fileVersion": "16.7.56.18620"
+          "lib/net6.0/Microsoft.VisualStudio.Threading.dll": {
+            "assemblyVersion": "17.4.0.0",
+            "fileVersion": "17.4.27.11915"
           }
         },
         "resources": {
-          "lib/netcoreapp3.0/cs/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/cs/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "cs"
           },
-          "lib/netcoreapp3.0/de/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/de/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "de"
           },
-          "lib/netcoreapp3.0/es/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/es/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "es"
           },
-          "lib/netcoreapp3.0/fr/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/fr/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "fr"
           },
-          "lib/netcoreapp3.0/it/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/it/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "it"
           },
-          "lib/netcoreapp3.0/ja/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/ja/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "ja"
           },
-          "lib/netcoreapp3.0/ko/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/ko/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "ko"
           },
-          "lib/netcoreapp3.0/pl/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/pl/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "pl"
           },
-          "lib/netcoreapp3.0/pt-BR/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/pt-BR/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/netcoreapp3.0/ru/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/ru/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "ru"
           },
-          "lib/netcoreapp3.0/tr/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/tr/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "tr"
           },
-          "lib/netcoreapp3.0/zh-Hans/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/zh-Hans/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.Threading.resources.dll": {
+          "lib/net6.0/zh-Hant/Microsoft.VisualStudio.Threading.resources.dll": {
             "locale": "zh-Hant"
           }
         }
       },
-      "Microsoft.VisualStudio.Threading.Analyzers/16.7.56": {},
-      "Microsoft.VisualStudio.Validation/15.5.31": {
+      "Microsoft.VisualStudio.Threading.Analyzers/17.4.27": {},
+      "Microsoft.VisualStudio.Validation/17.0.64": {
         "runtime": {
-          "lib/netstandard2.1/Microsoft.VisualStudio.Validation.dll": {
-            "assemblyVersion": "15.3.0.0",
-            "fileVersion": "15.5.31.7307"
+          "lib/netstandard2.0/Microsoft.VisualStudio.Validation.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.0.64.15530"
           }
         },
         "resources": {
-          "lib/netstandard2.1/cs/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/cs/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "cs"
           },
-          "lib/netstandard2.1/de/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/de/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "de"
           },
-          "lib/netstandard2.1/es/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/es/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "es"
           },
-          "lib/netstandard2.1/fr/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/fr/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "fr"
           },
-          "lib/netstandard2.1/it/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/it/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "it"
           },
-          "lib/netstandard2.1/ja/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/ja/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "ja"
           },
-          "lib/netstandard2.1/ko/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/ko/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "ko"
           },
-          "lib/netstandard2.1/pl/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/pl/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "pl"
           },
-          "lib/netstandard2.1/pt-BR/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/pt-BR/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/netstandard2.1/ru/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/ru/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "ru"
           },
-          "lib/netstandard2.1/tr/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/tr/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "tr"
           },
-          "lib/netstandard2.1/zh-Hans/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/netstandard2.1/zh-Hant/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.Validation.resources.dll": {
             "locale": "zh-Hant"
           }
-        }
-      },
-      "Microsoft.Win32.Primitives/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "System.Runtime": "4.3.0",
-          "runtime.win.Microsoft.Win32.Primitives": "4.3.0"
         }
       },
       "Microsoft.Win32.Registry/5.0.0": {
@@ -3525,19 +3499,18 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "Nerdbank.Streams/2.6.81": {
+      "Nerdbank.Streams/2.8.57": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
-          "Microsoft.VisualStudio.Threading": "16.7.56",
-          "Microsoft.VisualStudio.Validation": "15.5.31",
+          "Microsoft.VisualStudio.Threading": "17.4.27",
+          "Microsoft.VisualStudio.Validation": "17.0.64",
           "System.IO.Pipelines": "6.0.3",
-          "System.Net.WebSockets": "4.3.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Nerdbank.Streams.dll": {
-            "assemblyVersion": "2.6.0.0",
-            "fileVersion": "2.6.81.13279"
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.57.60077"
           }
         }
       },
@@ -3604,63 +3577,63 @@
         }
       },
       "NuGet.Versioning/6.4.0-preview.1.53": {},
-      "OmniSharp.Extensions.JsonRpc/0.19.0": {
+      "OmniSharp.Extensions.JsonRpc/0.19.7": {
         "dependencies": {
           "MediatR": "8.1.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "Nerdbank.Streams": "2.6.81",
+          "Nerdbank.Streams": "2.8.57",
           "Newtonsoft.Json": "13.0.1",
-          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.0",
+          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.7",
           "System.Collections.Immutable": "6.0.0",
-          "System.IO.Pipelines": "6.0.3",
-          "System.Reactive": "4.4.1"
+          "System.Reactive": "5.0.0",
+          "System.Threading.Channels": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.1/OmniSharp.Extensions.JsonRpc.dll": {
+          "lib/net6.0/OmniSharp.Extensions.JsonRpc.dll": {
             "assemblyVersion": "0.19.0.0",
-            "fileVersion": "0.19.0.0"
+            "fileVersion": "0.19.7.0"
           }
         }
       },
-      "OmniSharp.Extensions.JsonRpc.Generators/0.19.0": {},
-      "OmniSharp.Extensions.LanguageProtocol/0.19.0": {
+      "OmniSharp.Extensions.JsonRpc.Generators/0.19.7": {},
+      "OmniSharp.Extensions.LanguageProtocol/0.19.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
-          "OmniSharp.Extensions.JsonRpc": "0.19.0",
-          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.0"
+          "OmniSharp.Extensions.JsonRpc": "0.19.7",
+          "OmniSharp.Extensions.JsonRpc.Generators": "0.19.7"
         },
         "runtime": {
-          "lib/netstandard2.1/OmniSharp.Extensions.LanguageProtocol.dll": {
+          "lib/net6.0/OmniSharp.Extensions.LanguageProtocol.dll": {
             "assemblyVersion": "0.19.0.0",
-            "fileVersion": "0.19.0.0"
+            "fileVersion": "0.19.7.0"
           }
         }
       },
-      "OmniSharp.Extensions.LanguageServer/0.19.0": {
+      "OmniSharp.Extensions.LanguageServer/0.19.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
-          "OmniSharp.Extensions.JsonRpc": "0.19.0",
-          "OmniSharp.Extensions.LanguageProtocol": "0.19.0",
-          "OmniSharp.Extensions.LanguageServer.Shared": "0.19.0"
+          "OmniSharp.Extensions.JsonRpc": "0.19.7",
+          "OmniSharp.Extensions.LanguageProtocol": "0.19.7",
+          "OmniSharp.Extensions.LanguageServer.Shared": "0.19.7"
         },
         "runtime": {
-          "lib/netstandard2.1/OmniSharp.Extensions.LanguageServer.dll": {
+          "lib/net6.0/OmniSharp.Extensions.LanguageServer.dll": {
             "assemblyVersion": "0.19.0.0",
-            "fileVersion": "0.19.0.0"
+            "fileVersion": "0.19.7.0"
           }
         }
       },
-      "OmniSharp.Extensions.LanguageServer.Shared/0.19.0": {
+      "OmniSharp.Extensions.LanguageServer.Shared/0.19.7": {
         "dependencies": {
-          "OmniSharp.Extensions.LanguageProtocol": "0.19.0"
+          "OmniSharp.Extensions.LanguageProtocol": "0.19.7"
         },
         "runtime": {
-          "lib/netstandard2.1/OmniSharp.Extensions.LanguageServer.Shared.dll": {
+          "lib/net6.0/OmniSharp.Extensions.LanguageServer.Shared.dll": {
             "assemblyVersion": "0.19.0.0",
-            "fileVersion": "0.19.0.0"
+            "fileVersion": "0.19.7.0"
           }
         }
       },
@@ -3683,12 +3656,6 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
           "Microsoft.NETCore.Targets": "1.1.0"
-        }
-      },
-      "runtime.win.Microsoft.Win32.Primitives/4.3.0": {
-        "dependencies": {
-          "System.Runtime": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0"
         }
       },
       "runtime.win7.System.Private.Uri/4.3.0": {},
@@ -3810,14 +3777,6 @@
         }
       },
       "System.Memory/4.5.5": {},
-      "System.Net.WebSockets/4.3.0": {
-        "dependencies": {
-          "Microsoft.Win32.Primitives": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading.Tasks": "4.3.0"
-        }
-      },
       "System.Private.Uri/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -3825,7 +3784,14 @@
           "runtime.win7.System.Private.Uri": "4.3.0"
         }
       },
-      "System.Reactive/4.4.1": {},
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -3976,6 +3942,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Threading.Channels/6.0.0": {},
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -3987,7 +3954,7 @@
       "System.Threading.Tasks.Dataflow/6.0.0": {},
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "System.ValueTuple/4.5.0": {},
-      "OmniSharp.Abstractions/1.39.2": {
+      "OmniSharp.Abstractions/1.39.4": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -4000,34 +3967,34 @@
           "OmniSharp.Abstractions.dll": {}
         }
       },
-      "OmniSharp.Cake/1.39.2": {
+      "OmniSharp.Cake/1.39.4": {
         "dependencies": {
           "Cake.Scripting.Transport": "0.9.0",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.4.0-3.22429.3",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
-          "OmniSharp.Shared": "1.39.2"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.5.0-2.22527.10",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
+          "OmniSharp.Shared": "1.39.4"
         },
         "runtime": {
           "OmniSharp.Cake.dll": {}
         }
       },
-      "OmniSharp.DotNetTest/1.39.2": {
+      "OmniSharp.DotNetTest/1.39.4": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
           "Microsoft.TestPlatform.ObjectModel": "17.3.0",
           "Microsoft.TestPlatform.TranslationLayer": "17.3.0",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
         },
         "runtime": {
           "OmniSharp.DotNetTest.dll": {}
         }
       },
-      "OmniSharp.Host/1.39.2": {
+      "OmniSharp.Host/1.39.4": {
         "dependencies": {
           "McMaster.Extensions.CommandLineUtils": "3.1.0",
           "Microsoft.Build.Locator": "1.4.1",
@@ -4041,50 +4008,52 @@
           "Microsoft.Extensions.Logging.Console": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
-          "OmniSharp.Shared": "1.39.2"
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
+          "OmniSharp.Shared": "1.39.4"
         },
         "runtime": {
           "OmniSharp.Host.dll": {}
         }
       },
-      "OmniSharp.LanguageServerProtocol/1.39.2": {
+      "OmniSharp.LanguageServerProtocol/1.39.4": {
         "dependencies": {
-          "OmniSharp.DotNetTest": "1.39.2",
-          "OmniSharp.Extensions.LanguageServer": "0.19.0",
-          "OmniSharp.Host": "1.39.2",
-          "OmniSharp.MSBuild": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
-          "OmniSharp.Script": "1.39.2"
+          "Microsoft.VisualStudio.Threading": "17.4.27",
+          "Microsoft.VisualStudio.Validation": "17.0.64",
+          "OmniSharp.DotNetTest": "1.39.4",
+          "OmniSharp.Extensions.LanguageServer": "0.19.7",
+          "OmniSharp.Host": "1.39.4",
+          "OmniSharp.MSBuild": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
+          "OmniSharp.Script": "1.39.4"
         },
         "runtime": {
           "OmniSharp.LanguageServerProtocol.dll": {}
         }
       },
-      "OmniSharp.MSBuild/1.39.2": {
+      "OmniSharp.MSBuild/1.39.4": {
         "dependencies": {
           "Microsoft.Extensions.Options": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
           "NuGet.Packaging.Core": "6.4.0-preview.1.53",
           "NuGet.ProjectModel": "6.4.0-preview.1.53",
           "NuGet.Versioning": "6.4.0-preview.1.53",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
           "System.Threading.Tasks.Dataflow": "6.0.0"
         },
         "runtime": {
           "OmniSharp.MSBuild.dll": {}
         }
       },
-      "OmniSharp.Roslyn/1.39.2": {
+      "OmniSharp.Roslyn/1.39.4": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.Workspaces.Common": "4.4.0-3.22429.3",
+          "Microsoft.CodeAnalysis.Common": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "4.5.0-2.22527.10",
           "Microsoft.Extensions.Caching.Memory": "6.0.0",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Shared": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Shared": "1.39.4",
           "System.ComponentModel.Composition": "4.5.0",
           "System.Reflection.DispatchProxy": "4.5.1"
         },
@@ -4092,43 +4061,43 @@
           "OmniSharp.Roslyn.dll": {}
         }
       },
-      "OmniSharp.Roslyn.CSharp/1.39.2": {
+      "OmniSharp.Roslyn.CSharp/1.39.4": {
         "dependencies": {
           "ICSharpCode.Decompiler": "7.2.1.6856",
-          "Microsoft.CodeAnalysis.CSharp": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Features": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.4.0-3.22429.3",
-          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp": "4.4.0-3.22429.3",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn": "1.39.2",
-          "OmniSharp.Shared": "1.39.2",
-          "System.Reactive": "4.4.1"
+          "Microsoft.CodeAnalysis.CSharp": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Features": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0-2.22527.10",
+          "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp": "4.5.0-2.22527.10",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn": "1.39.4",
+          "OmniSharp.Shared": "1.39.4",
+          "System.Reactive": "5.0.0"
         },
         "runtime": {
           "OmniSharp.Roslyn.CSharp.dll": {}
         }
       },
-      "OmniSharp.Script/1.39.2": {
+      "OmniSharp.Script/1.39.4": {
         "dependencies": {
-          "Dotnet.Script.DependencyModel": "1.3.1",
-          "Dotnet.Script.DependencyModel.NuGet": "1.3.1",
-          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.4.0-3.22429.3",
-          "OmniSharp.Abstractions": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
+          "Dotnet.Script.DependencyModel": "1.4.0",
+          "Dotnet.Script.DependencyModel.NuGet": "1.4.0",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.5.0-2.22527.10",
+          "OmniSharp.Abstractions": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
           "System.ValueTuple": "4.5.0"
         },
         "runtime": {
           "OmniSharp.Script.dll": {}
         }
       },
-      "OmniSharp.Shared/1.39.2": {
+      "OmniSharp.Shared/1.39.4": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
           "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "OmniSharp.Abstractions": "1.39.2",
+          "OmniSharp.Abstractions": "1.39.4",
           "System.Collections.Immutable": "6.0.0",
           "System.Composition": "6.0.0"
         },
@@ -4136,26 +4105,18 @@
           "OmniSharp.Shared.dll": {}
         }
       },
-      "OmniSharp.Stdio/1.39.2": {
+      "OmniSharp.Stdio/1.39.4": {
         "dependencies": {
-          "OmniSharp.Cake": "1.39.2",
-          "OmniSharp.DotNetTest": "1.39.2",
-          "OmniSharp.Host": "1.39.2",
-          "OmniSharp.LanguageServerProtocol": "1.39.2",
-          "OmniSharp.MSBuild": "1.39.2",
-          "OmniSharp.Roslyn.CSharp": "1.39.2",
-          "OmniSharp.Script": "1.39.2"
+          "OmniSharp.Cake": "1.39.4",
+          "OmniSharp.DotNetTest": "1.39.4",
+          "OmniSharp.Host": "1.39.4",
+          "OmniSharp.LanguageServerProtocol": "1.39.4",
+          "OmniSharp.MSBuild": "1.39.4",
+          "OmniSharp.Roslyn.CSharp": "1.39.4",
+          "OmniSharp.Script": "1.39.4"
         },
         "runtime": {
           "OmniSharp.Stdio.dll": {}
-        }
-      },
-      "System.Reactive.Reference/4.4.0.0": {
-        "runtime": {
-          "System.Reactive.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.1.57983"
-          }
         }
       }
     }
@@ -4180,19 +4141,19 @@
       "path": "cake.scripting.transport/0.9.0",
       "hashPath": "cake.scripting.transport.0.9.0.nupkg.sha512"
     },
-    "Dotnet.Script.DependencyModel/1.3.1": {
+    "Dotnet.Script.DependencyModel/1.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-51hQ6cQUj2Z3KSXwKubz7mjeseetQDm4FOjkTywV9pLDwWfr5DRNRE+w50v5ESHHkAyG4YVc947cbJRnfiFTnA==",
-      "path": "dotnet.script.dependencymodel/1.3.1",
-      "hashPath": "dotnet.script.dependencymodel.1.3.1.nupkg.sha512"
+      "sha512": "sha512-X7F/ILTV8KXmQFxuS2wRav+X7Lxya0AEijNv+dR5zGF/KiEw1Y3u6NnFHc912cbFpn0JSy76+WdiwJ4jueGVhQ==",
+      "path": "dotnet.script.dependencymodel/1.4.0",
+      "hashPath": "dotnet.script.dependencymodel.1.4.0.nupkg.sha512"
     },
-    "Dotnet.Script.DependencyModel.NuGet/1.3.1": {
+    "Dotnet.Script.DependencyModel.NuGet/1.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CubUcSrdSkOIv0QfTtamXBxWDmSTTTnO5wklF+IaDZh8/f2euNZ60QzO0b90JOYwWs2dq2W3650QmibpgHtIwA==",
-      "path": "dotnet.script.dependencymodel.nuget/1.3.1",
-      "hashPath": "dotnet.script.dependencymodel.nuget.1.3.1.nupkg.sha512"
+      "sha512": "sha512-ZJWDAi8xpHPNid44XD8Gvc2RVSEuo5DRLg28l78g0QK8bd2c1kHRywflEGdW8Ia8fZu9qe7lQnRcbL1KKMcVkA==",
+      "path": "dotnet.script.dependencymodel.nuget/1.4.0",
+      "hashPath": "dotnet.script.dependencymodel.nuget.1.4.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -4257,40 +4218,40 @@
       "path": "microsoft.codeanalysis.analyzerutilities/3.3.0",
       "hashPath": "microsoft.codeanalysis.analyzerutilities.3.3.0.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Common/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.Common/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Q/x2rr7X5VrqZCh3P+asijo9vHSvj8oSwqGash6166VtUkYyYDVn8JTqDFiX01ppOE0MSVtBlxBdFoYbuvoP3A==",
-      "path": "microsoft.codeanalysis.common/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.common.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-bPv6m9GLHhizDvwifkXmFHrEpLrqzdFRUCXRa5BF/iwpJgT70REUqGbaKgrzXn9wFKlfkkjMQcHPeu/wGN/x0g==",
+      "path": "microsoft.codeanalysis.common/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.common.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.CSharp/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.CSharp/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cd27D3xlv4+SvkRgad+U3hrILYShX41De17MgDAawNjKPa51MsMoDghRbDLD3y0HjJ/0j9FiIaxp7F+H0uLcDA==",
-      "path": "microsoft.codeanalysis.csharp/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.csharp.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-WII8weXxSDy9TBTM3NEIwhID+/FqMBojMU8JXg/hJaBZ5fP6DO+FwvdvdfCLOKAt4eNO+dO8fw+cUv4f8UFCYw==",
+      "path": "microsoft.codeanalysis.csharp/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.csharp.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.CSharp.Features/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.CSharp.Features/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5GiUs/xolj0ssYpp1WVUD43OPxqqJZe7g6nA/WK8MiR7EYjmQXbtKk7f77qWQsX6NARGPiUrvKrcKZ83SAOLVQ==",
-      "path": "microsoft.codeanalysis.csharp.features/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.csharp.features.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-I/YnEsJYXQvAO6eJmepf4gxvgxUXvk/5jesJ+dM1zhaRZwLjY1753DhwnI0fns8z5vZP4R35lM+r+aXV1b6XVA==",
+      "path": "microsoft.codeanalysis.csharp.features/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.csharp.features.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.CSharp.Scripting/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.CSharp.Scripting/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Tnq9OOmNJmKwUcMI4DF/KYqwD0wJFLJNEExg5rzSicGsgRkEeO3oIisE6c2t9gu3lgRSK5IfZxpBJVFigEnm/Q==",
-      "path": "microsoft.codeanalysis.csharp.scripting/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.csharp.scripting.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-7DfyLWbW6lsEHrO97H1KYuCqP7MZxv18yt9CVvXNJ0P1rhVN1HZ+z/9aGdDt7Zmvl2BdwbPqWDPfBFkE3ZOH1g==",
+      "path": "microsoft.codeanalysis.csharp.scripting/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.csharp.scripting.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.CSharp.Workspaces/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.CSharp.Workspaces/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RozCe1poRDXK4SaHFi6TO2LIlAgS9/0RTxghabL3kQlPqIKYfKC1dtJrq4CDpZ/LuUa3UjUYlJo8X2Tt9R3iIg==",
-      "path": "microsoft.codeanalysis.csharp.workspaces/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.csharp.workspaces.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-9ziwpBt/q4waJ30ZbH4vCAw/rkn32SL5/g+24Aaod+nLmPJ7YhGKWFezDmbzQoqi19E8Ta5690xst9ETqiSm4A==",
+      "path": "microsoft.codeanalysis.csharp.workspaces/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.csharp.workspaces.4.5.0-2.22527.10.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Elfie/1.0.0": {
       "type": "package",
@@ -4299,40 +4260,40 @@
       "path": "microsoft.codeanalysis.elfie/1.0.0",
       "hashPath": "microsoft.codeanalysis.elfie.1.0.0.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kjIMrvmVw3QYeCo1991W0QroLXyJ1IVPW7lbamJwnGM7NJIQGDrMFh9e7NTm6UBJB2mVBByGjhqy2mjbkUgUeg==",
-      "path": "microsoft.codeanalysis.externalaccess.omnisharp/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.externalaccess.omnisharp.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-0Lnx8oOI8j64XBIm+sjLn3M/AM75L9n8I6FEfYtkKzXHYAOz0nS1Ccgw03XU5ONYz9JU++vkozsiUP/FZoCNOg==",
+      "path": "microsoft.codeanalysis.externalaccess.omnisharp/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.externalaccess.omnisharp.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.ExternalAccess.OmniSharp.CSharp/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Dh9zqTw8KqezyWQjrltKaVsbBxAPiGD3SceScrZa9TP+K7dIguVLRcGZucU5hsQPhbLBvYMmnOnvMCUooB5h2g==",
-      "path": "microsoft.codeanalysis.externalaccess.omnisharp.csharp/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.externalaccess.omnisharp.csharp.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-cWWYBZyN/IU/qkjjteHujEBl1b6WgaImqEKfVoMKDgQ5eWrk2vTM5duCc+qLbyZze/igqEtsIKE4l0PNgppojA==",
+      "path": "microsoft.codeanalysis.externalaccess.omnisharp.csharp/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.externalaccess.omnisharp.csharp.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Features/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.Features/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ey23Sy4ZVDDkNPf6fGsfDG+WrUvZDBYkfpO+t72ThJH8sqDUiXVxDZb+ZfNl21Yh7ErJAoOGwpDcsqTRDtpL6w==",
-      "path": "microsoft.codeanalysis.features/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.features.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-JEbUctXWqt9Twqq8xRinfNpshR2tcUzNop/fkgmIhEmQ4PNrbeCqb+MyihK+e0rYCYM+bxNwnnwf9BRrDWXiMw==",
+      "path": "microsoft.codeanalysis.features/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.features.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Scripting.Common/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.Scripting.Common/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ga9zEDATdNmQhppA2IPoAmNWNB8OXwU4IgA6rLXvM8ssVwC3o9N+4w458+CsYOlBBhR6ATlal/jNXXWd4FpQNg==",
-      "path": "microsoft.codeanalysis.scripting.common/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.scripting.common.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-EkqBUDsorEQvXg5DQh+u/laGXYVTdoxpDqecf9rbVqo7iz6csL9HAAUHylaxFjTGiZcwk0uDYbubONtcLo+q/w==",
+      "path": "microsoft.codeanalysis.scripting.common/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.scripting.common.4.5.0-2.22527.10.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Workspaces.Common/4.4.0-3.22429.3": {
+    "Microsoft.CodeAnalysis.Workspaces.Common/4.5.0-2.22527.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LNO/vFbrZTo69vIvQ5LUHy3W4Hfbzx4TkSAEc7JTHqRql9ylNc084PcDk6M8cpWJFAD1tc7n0g9uPZT2mYssYA==",
-      "path": "microsoft.codeanalysis.workspaces.common/4.4.0-3.22429.3",
-      "hashPath": "microsoft.codeanalysis.workspaces.common.4.4.0-3.22429.3.nupkg.sha512"
+      "sha512": "sha512-weNV7Y0UFppMxgSXxqtUkCS1FaJ6Oi+qA233QFZ9QIZGx56BELpn1p2WXXM5cP5QtHd6mPbkmITikUCqP9f7Ag==",
+      "path": "microsoft.codeanalysis.workspaces.common/4.5.0-2.22527.10",
+      "hashPath": "microsoft.codeanalysis.workspaces.common.4.5.0-2.22527.10.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -4565,33 +4526,26 @@
       "path": "microsoft.testplatform.translationlayer/17.3.0",
       "hashPath": "microsoft.testplatform.translationlayer.17.3.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Threading/16.7.56": {
+    "Microsoft.VisualStudio.Threading/17.4.27": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1XR6Os4SJ6yLUL0wg8ifnvGVJH+YRrPhBlQJiJPEYA9EisklRuuQUle0CzW1v+JI5wff9qN+9Ws44YXQva2Uuw==",
-      "path": "microsoft.visualstudio.threading/16.7.56",
-      "hashPath": "microsoft.visualstudio.threading.16.7.56.nupkg.sha512"
+      "sha512": "sha512-tNp/nvGOgc03xyex+2YKEsjug1yOdIlGaQOPCoXYxpV0oTFiTgAwZosOspyxIisReGiL1nQLIZBbqFQqrPzKUw==",
+      "path": "microsoft.visualstudio.threading/17.4.27",
+      "hashPath": "microsoft.visualstudio.threading.17.4.27.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Threading.Analyzers/16.7.56": {
+    "Microsoft.VisualStudio.Threading.Analyzers/17.4.27": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-c/DKkPSjAW1mXumLf2m6Y2Sd+aUZcPcjsg5i7BgeBvAM/StGT1+2VcMbO9YyUUmnu+pPjyMYEpI6nygTeJ+6sw==",
-      "path": "microsoft.visualstudio.threading.analyzers/16.7.56",
-      "hashPath": "microsoft.visualstudio.threading.analyzers.16.7.56.nupkg.sha512"
+      "sha512": "sha512-G1rm7mLDS3axxm6ANzwdNwFJ0fchi3vBe/LsZAEQksEz5qr5XGpf2DdqzgY5JhTATdC+ULSa1TdUfeXM9t3mjg==",
+      "path": "microsoft.visualstudio.threading.analyzers/17.4.27",
+      "hashPath": "microsoft.visualstudio.threading.analyzers.17.4.27.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Validation/15.5.31": {
+    "Microsoft.VisualStudio.Validation/17.0.64": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AOmvJTT4CpamJ2A6J+PBrhKPfs2HXi/MJVxN/QlViewjI4XZDrt/yp3NMto+OOgB25jDnt9IIdNTkjpNBUpXmw==",
-      "path": "microsoft.visualstudio.validation/15.5.31",
-      "hashPath": "microsoft.visualstudio.validation.15.5.31.nupkg.sha512"
-    },
-    "Microsoft.Win32.Primitives/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
-      "path": "microsoft.win32.primitives/4.3.0",
-      "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
+      "sha512": "sha512-tjh3zXOKXKXCeWNGMh+gq+B4SR9WBQPxoj37NY9klrJ8i8hmYZEIcb1khFkLRu988YHs0q6iawjk9Q/RvMdz3g==",
+      "path": "microsoft.visualstudio.validation/17.0.64",
+      "hashPath": "microsoft.visualstudio.validation.17.0.64.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/5.0.0": {
       "type": "package",
@@ -4600,12 +4554,12 @@
       "path": "microsoft.win32.registry/5.0.0",
       "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
     },
-    "Nerdbank.Streams/2.6.81": {
+    "Nerdbank.Streams/2.8.57": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-htBHFE359qyyFwrvAGvFxrbBAoldZdl0XjtQdDWTJ8t5sWWs7QVXID5y1ZGJE61UgpV5CqWsj/NT0LOAn5GdZw==",
-      "path": "nerdbank.streams/2.6.81",
-      "hashPath": "nerdbank.streams.2.6.81.nupkg.sha512"
+      "sha512": "sha512-xDdPX+DhqzLjMiNB2en+NSsDfZcnNkiFrKhd3TROr4DkhoQdsivjo7NG6rtnQj1BTPvUnO+C5iloASr7nxPnCw==",
+      "path": "nerdbank.streams/2.8.57",
+      "hashPath": "nerdbank.streams.2.8.57.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
@@ -4691,40 +4645,40 @@
       "path": "nuget.versioning/6.4.0-preview.1.53",
       "hashPath": "nuget.versioning.6.4.0-preview.1.53.nupkg.sha512"
     },
-    "OmniSharp.Extensions.JsonRpc/0.19.0": {
+    "OmniSharp.Extensions.JsonRpc/0.19.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ca54pd8U0KZmfta6S6ViDGUym1C8nsx2iBG8Mz1xQ3LRipg2le9oy4/zgYtEY2OMs2wXJASSyl1uZHBwL6Xfpg==",
-      "path": "omnisharp.extensions.jsonrpc/0.19.0",
-      "hashPath": "omnisharp.extensions.jsonrpc.0.19.0.nupkg.sha512"
+      "sha512": "sha512-TbT1Oq+WFlMNXbU/3l0YmiXYmnWErY159hpsp9W2/7C+VmjMISzuOQty0ew0UUTNmTYrHh0B3z63M2Zhgi/edg==",
+      "path": "omnisharp.extensions.jsonrpc/0.19.7",
+      "hashPath": "omnisharp.extensions.jsonrpc.0.19.7.nupkg.sha512"
     },
-    "OmniSharp.Extensions.JsonRpc.Generators/0.19.0": {
+    "OmniSharp.Extensions.JsonRpc.Generators/0.19.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TB9JGuRAz+qZwF4XAgwr/Aa1IpbC/rZpuPFrmmfinrhFr25T8bo6OtcMifrjHgi55fod6MYlsuxur8PnOiOMBg==",
-      "path": "omnisharp.extensions.jsonrpc.generators/0.19.0",
-      "hashPath": "omnisharp.extensions.jsonrpc.generators.0.19.0.nupkg.sha512"
+      "sha512": "sha512-z3qCnbC00O+B/y8RfNxQWm7IC9+0UcOACGO9Ni1d6xO1diNq4k3Qm+01K/G5hMv8l/Awd6w2seJnSDKIvEiJbw==",
+      "path": "omnisharp.extensions.jsonrpc.generators/0.19.7",
+      "hashPath": "omnisharp.extensions.jsonrpc.generators.0.19.7.nupkg.sha512"
     },
-    "OmniSharp.Extensions.LanguageProtocol/0.19.0": {
+    "OmniSharp.Extensions.LanguageProtocol/0.19.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RH5EX9oMZkqtx4ROf9CN6c+yismhF680zcvZhulhK8IUwTr/aObwSQ6vcXqAXVNDLzO/7z5Kukdb4LJO3gptOA==",
-      "path": "omnisharp.extensions.languageprotocol/0.19.0",
-      "hashPath": "omnisharp.extensions.languageprotocol.0.19.0.nupkg.sha512"
+      "sha512": "sha512-wlEaNOKeKq5vrzkN/6q47G64SCAxi8xHmLgB08LNOM2D6Lfz6+C5woysBsSHjgZjU1j7pzYJraP88XlgSH0Kaw==",
+      "path": "omnisharp.extensions.languageprotocol/0.19.7",
+      "hashPath": "omnisharp.extensions.languageprotocol.0.19.7.nupkg.sha512"
     },
-    "OmniSharp.Extensions.LanguageServer/0.19.0": {
+    "OmniSharp.Extensions.LanguageServer/0.19.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GlCNWQXHxheo1AME5lbHw07VxGI6uNAuTwX68FdaO0Ps3SKjGFFmbUgf7xinAcVpUGjebqYlPz96LCLfpTiFNQ==",
-      "path": "omnisharp.extensions.languageserver/0.19.0",
-      "hashPath": "omnisharp.extensions.languageserver.0.19.0.nupkg.sha512"
+      "sha512": "sha512-ktdklzQkaxaa5nsq4l/gwAeYf58JVfEMneuMnWJwpWUAQXaX30hyeefaiML3hnMrZE1wHis5PrRqx43/oQtq1g==",
+      "path": "omnisharp.extensions.languageserver/0.19.7",
+      "hashPath": "omnisharp.extensions.languageserver.0.19.7.nupkg.sha512"
     },
-    "OmniSharp.Extensions.LanguageServer.Shared/0.19.0": {
+    "OmniSharp.Extensions.LanguageServer.Shared/0.19.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-O+hXSzJQ3TmEyKuvNI1FAE6sfPxGz4IQ/K+REGzWj2wz8vgwP2mAY15AwvenLtVVfJiZILr1f2lE8RsUw22v3Q==",
-      "path": "omnisharp.extensions.languageserver.shared/0.19.0",
-      "hashPath": "omnisharp.extensions.languageserver.shared.0.19.0.nupkg.sha512"
+      "sha512": "sha512-rCXuvtNzCLg4GPQFrxIhWKzoUn1UCQ0FFu70GgHqf3i1+3IDfnKS+vbHh3SV2gPJ5+AWerYJ7qQTfWHpkDutBg==",
+      "path": "omnisharp.extensions.languageserver.shared/0.19.7",
+      "hashPath": "omnisharp.extensions.languageserver.shared.0.19.7.nupkg.sha512"
     },
     "runtime.any.System.Globalization/4.3.0": {
       "type": "package",
@@ -4809,13 +4763,6 @@
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
-    },
-    "runtime.win.Microsoft.Win32.Primitives/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NU51SEt/ZaD2MF48sJ17BIqx7rjeNNLXUevfMOjqQIetdndXwYjZfZsT6jD+rSWp/FYxjesdK4xUSl4OTEI0jw==",
-      "path": "runtime.win.microsoft.win32.primitives/4.3.0",
-      "hashPath": "runtime.win.microsoft.win32.primitives.4.3.0.nupkg.sha512"
     },
     "runtime.win7.System.Private.Uri/4.3.0": {
       "type": "package",
@@ -4950,13 +4897,6 @@
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
-    "System.Net.WebSockets/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-u6fFNY5q4T8KerUAVbya7bR6b7muBuSTAersyrihkcmE5QhEOiH3t5rh4il15SexbVlpXFHGuMwr/m8fDrnkQg==",
-      "path": "system.net.websockets/4.3.0",
-      "hashPath": "system.net.websockets.4.3.0.nupkg.sha512"
-    },
     "System.Private.Uri/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4964,12 +4904,12 @@
       "path": "system.private.uri/4.3.0",
       "hashPath": "system.private.uri.4.3.0.nupkg.sha512"
     },
-    "System.Reactive/4.4.1": {
+    "System.Reactive/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iSTPeWR9HJhGoNV4WhVlvofuiTjpok1i4E3LPgMdbMqf3jKhFlT9HAlO32lb52NLppWC/4dZQFfUzTytvyXBmw==",
-      "path": "system.reactive/4.4.1",
-      "hashPath": "system.reactive.4.4.1.nupkg.sha512"
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
@@ -5125,6 +5065,13 @@
       "path": "system.threading/4.3.0",
       "hashPath": "system.threading.4.3.0.nupkg.sha512"
     },
+    "System.Threading.Channels/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "path": "system.threading.channels/6.0.0",
+      "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
+    },
     "System.Threading.Tasks/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -5153,63 +5100,58 @@
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
-    "OmniSharp.Abstractions/1.39.2": {
+    "OmniSharp.Abstractions/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.Cake/1.39.2": {
+    "OmniSharp.Cake/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.DotNetTest/1.39.2": {
+    "OmniSharp.DotNetTest/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.Host/1.39.2": {
+    "OmniSharp.Host/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.LanguageServerProtocol/1.39.2": {
+    "OmniSharp.LanguageServerProtocol/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.MSBuild/1.39.2": {
+    "OmniSharp.MSBuild/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.Roslyn/1.39.2": {
+    "OmniSharp.Roslyn/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.Roslyn.CSharp/1.39.2": {
+    "OmniSharp.Roslyn.CSharp/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.Script/1.39.2": {
+    "OmniSharp.Script/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.Shared/1.39.2": {
+    "OmniSharp.Shared/1.39.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OmniSharp.Stdio/1.39.2": {
+    "OmniSharp.Stdio/1.39.4": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Reactive.Reference/4.4.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
@@ -5228,7 +5170,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Win32.Primitives.Reference/6.0.0.0": {
+    "Microsoft.Win32.Primitives/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5618,7 +5560,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Net.WebSockets.Reference/6.0.0.0": {
+    "System.Net.WebSockets/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5878,7 +5820,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Threading.Channels/6.0.0.0": {
+    "System.Threading.Channels.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
