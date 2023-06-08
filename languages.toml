@@ -2,3 +2,13 @@
 name = "c-sharp"
 scope = "source.cs"
 indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "typescript"
+scope = "source.ts"
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "tsx"
+scope = "source.tsx"
+indent = { tab-width = 2, unit = "  " }
