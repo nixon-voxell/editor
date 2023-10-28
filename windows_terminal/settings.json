@@ -116,17 +116,17 @@
             "command": 
             {
                 "action": "switchToTab",
-                "index": 6
+                "index": 5
             },
-            "keys": "ctrl+7"
+            "keys": "ctrl+6"
         },
         {
             "command": 
             {
                 "action": "switchToTab",
-                "index": 5
+                "index": 6
             },
-            "keys": "ctrl+6"
+            "keys": "ctrl+7"
         },
         {
             "command": 
@@ -167,7 +167,8 @@
             {
                 "face": "Consolas",
                 "size": 16.0
-            }
+            },
+            "padding": "0"
         },
         "list": 
         [
