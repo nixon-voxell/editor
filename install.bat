@@ -2,7 +2,6 @@
 
 cd helix
 cargo install --locked --path helix-term
-cargo clean
 git config --global core.editor "hx"
 
 mkdir "%AppData%\helix\runtime"
