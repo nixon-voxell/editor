@@ -1,3 +1,5 @@
+@echo off
+
 cd helix
 cargo install --locked --path helix-term
 cargo clean
