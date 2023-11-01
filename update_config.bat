@@ -1,2 +1,2 @@
-xcopy "config.toml" "%AppData%/helix/config.toml"
-xcopy "languages.toml" "%AppData%/helix/languages.toml"
+xcopy ".\configs\helix\config.toml" "%AppData%/helix/config.toml"
+xcopy ".\configs\helix\languages.toml" "%AppData%/helix/languages.toml"
